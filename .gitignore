@@ -1,0 +1,46 @@
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+*.so
+*.ipynb_checkpoints/
+
+# --- Environment files ---
+.env
+.venv/
+env/
+venv/
+.idea/
+.vscode/
+.Python
+*.DS_Store
+
+# --- Python packaging ---
+*.egg-info/
+*.egg
+*.whl
+pip-wheel-metadata/
+
+# --- Logs ---
+*.log
+logs/
+*.out
+
+# --- PyTorch & Training ---
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+runs/
+lightning_logs/
+
+# --- Model Output & Visualizations ---
+test_visuals/
+train_visuals/
+*.npy
+
+# --- Ignore ALL training data ---
+data/
+
+# --- Others ---
+Thumbs.db
+output_vis/
