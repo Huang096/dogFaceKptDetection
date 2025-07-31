@@ -40,6 +40,7 @@ train_visuals/
 
 # --- Ignore ALL training data ---
 data/
+model/
 
 # --- Others ---
 Thumbs.db
